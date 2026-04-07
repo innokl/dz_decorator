@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="dz_decorator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/dz_decorator_jar</output-path>
+    <root id="archive" name="dz_decorator.jar">
+      <element id="module-output" name="dz_decorator" />
+    </root>
+  </artifact>
+</component>

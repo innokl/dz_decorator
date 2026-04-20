@@ -15,6 +15,6 @@ public class HotSauce extends Decorator {
 
     @Override
     public int getCost() {
-        return super.getDish().getCost() + 10;
+        return super.getCost() + 10;
     }
 }

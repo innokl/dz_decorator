@@ -10,11 +10,11 @@ public class DoubleMeat extends Decorator {
 
     @Override
     public String getDescription() {
-        return super.getDish().getDescription() + " + Двойная порция оленины";
+        return super.getDescription() + " + Двойная порция оленины";
     }
 
     @Override
     public int getCost() {
-        return super.getDish().getCost() + 20;
+        return super.getCost() + 20;
     }
 }

@@ -11,11 +11,11 @@ public class Berries extends Decorator {
 
     @Override
     public String getDescription() {
-        return super.getDish().getDescription() + " + Снежные ягоды";
+        return super.getDescription() + " + Снежные ягоды";
     }
 
     @Override
     public int getCost() {
-        return super.getDish().getCost() + 6;
+        return super.getCost() + 6;
     }
 }

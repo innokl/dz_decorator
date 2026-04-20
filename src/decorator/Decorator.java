@@ -11,4 +11,13 @@ public abstract class Decorator implements Dish {
     public Dish getDish() {
         return dish;
     }
+    @Override
+    public String getDescription(){
+        return dish.getDescription();
+    }
+
+    @Override
+    public int getCost(){
+        return dish.getCost();
+    }
 }

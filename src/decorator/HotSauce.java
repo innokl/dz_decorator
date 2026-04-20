@@ -10,11 +10,11 @@ public class HotSauce extends Decorator {
 
     @Override
     public String getDescription() {
-        return dish.getDescription() + " + Огненный соус";
+        return super.getDish().getDescription() + " + Огненный соус";
     }
 
     @Override
     public int getCost() {
-        return dish.getCost() + 10;
+        return super.getDish().getCost() + 10;
     }
 }

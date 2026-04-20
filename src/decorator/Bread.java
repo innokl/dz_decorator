@@ -11,11 +11,11 @@ public class Bread extends Decorator {
 
     @Override
     public String getDescription() {
-        return dish.getDescription() + " + Нордская лепешка";
+        return super.getDish().getDescription() + " + Нордская лепешка";
     }
 
     @Override
     public int getCost() {
-        return dish.getCost() + 7;
+        return super.getDish().getCost() + 7;
     }
 }

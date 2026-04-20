@@ -8,4 +8,7 @@ public abstract class Decorator implements Dish {
     public Decorator(Dish dish) {
         this.dish = dish;
     }
+    public Dish getDish() {
+        return dish;
+    }
 }
